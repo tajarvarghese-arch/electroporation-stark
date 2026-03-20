@@ -6,8 +6,5 @@ export default defineConfig({
   server: {
     open: true,
     port: 3000
-  },
-  worker: {
-    format: 'es'
   }
 })
