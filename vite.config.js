@@ -5,9 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: true,
-    port: 3000
-  },
-  worker: {
-    format: 'es'
+    port: 3000,
+    https: false
   }
 })
